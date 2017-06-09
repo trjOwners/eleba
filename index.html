@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" minimum-scale=1.0 initial-scale=1.0/>
+		<link rel="stylesheet" href="css/index.css" />
+		<title>饿了吧</title>
+	</head>
+
+	<body id="phone">
+		<nav class="nav">饿了吧</nav>
+		<p style="height: 7vh;"></p>
+		<main id="main">
+			<div class="dis_block" id="one">
+				<p style="height: 3vh;background-color: #fff;"></p>
+			</div>
+			<div class="dis_none" id="two">
+				<article>
+					<section>清单</section>
+					<table id="table">
+						
+					</table>
+					<section id="heji">合计: <b id="hejinum">0</b>￥</section>
+				</article>
+				<p style="height: 3vh;background-color: #eee;"></p>
+				<article>
+					<section>联系方式</section>
+					<form action="" method="get">
+						<label>姓名:</label>
+						<input type="text" name="username2" /><br/>
+						<label>电话:</label>
+						<input type="phone" name="phone2" /><br/>
+						<label>地址:</label>
+						<input type="text" name="address2" /><br/>
+					</form>
+					<section class="xiadan"><a href="javascript:qingkong();">清空购物车</a><button id="xiadan">下单</button></section>
+				</article>
+			</div>
+			<div class="dis_none" id="three">
+				<article id="article">
+					<ul>
+						<li><span class="three_span_b">订餐时间 :</span></li>
+						<li id="time">2016-10-15 11:46:01</li>
+					</ul>
+					<ul>
+						<li><span class="three_span_red">订餐内容 :</span></li>
+						<li id="neirong">老北京烤鸭套餐(1)</li>
+					</ul>
+					<ul>
+						<li><span class="three_span_red">配送信息 :</span></li>
+						<li id="client"></li>
+					</ul>
+					<ul>
+						<li><span>合计金额 :</span></li>
+						<li><span class="three_span_sum">￥<b id="jiner">45</b>元</span></li>
+					</ul>
+					<ul>
+						<li><span>支付状态 :</span></li>
+						<li>货到付款</li>
+					</ul>
+				</article>
+			</div>
+			<div class="dis_none" id="four">
+				<section>默认联系方式</section>
+				<form action="" method="get">
+					<label>姓名:</label>
+					<input type="text" name="username" /><br/>
+					<label>电话:</label>
+					<input type="phone" name="phone" /><br/>
+					<label>地址:</label>
+					<input type="text" name="address" /><br/>
+				</form>
+				<section class="btn"><button id="baocun">保存用户信息</button></section>
+			</div>
+		</main>
+		<p style="height: 7vh;"></p>
+		<footer id="footer">
+			<dl>
+				<dt></dt>
+				<dd>菜单</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>购物车</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>订单</dd>
+			</dl>
+			<dl>
+				<dt></dt>
+				<dd>我的</dd>
+			</dl>
+		</footer>
+		<script src="js/index.js"></script>
+	</body>
+
+</html>
